@@ -8,6 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     color: white;
+    overflow: hidden;
 }
 
 .container {
@@ -20,7 +21,6 @@ h1 {
     color: #f1faee;
 }
 
-/* Stylish Button */
 .stylish-button {
     display: inline-block;
     padding: 15px 40px;
@@ -66,7 +66,7 @@ h1 {
     transform: scale(0.95);
 }
 
-/* Additional Hover Effect */
+
 .stylish-button:hover {
     letter-spacing: 2px;
     transform: rotate(2deg);
@@ -79,9 +79,10 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
     overflow: hidden;
 }
+
 
 .text {
     position: absolute;
